@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SFML::Graphics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SFML__Graphics-Debug-20ef059f2f60c7bb92ee.json",
+					"name" : "SFML::Graphics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SFML::System::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SFML__System-Debug-dfe6f7b28c3c6306396e.json",
+					"name" : "SFML::System",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SFML::Window::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SFML__Window-Debug-322eba768c3af2a8dbbb.json",
+					"name" : "SFML::Window",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-b5805d5c08fd3d92def4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "RocketSimulator",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "RocketSimulator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RocketSimulator-Debug-a20db234d91169c056ba.json",
+					"name" : "RocketSimulator",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/agbem/OneDrive/Projects/RocketSimulator/build",
+		"source" : "C:/Users/agbem/OneDrive/Projects/RocketSimulator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}
