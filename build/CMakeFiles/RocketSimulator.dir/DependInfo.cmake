@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/agbem/OneDrive/Projects/RocketSimulator/src/main.cpp" "CMakeFiles/RocketSimulator.dir/src/main.cpp.obj" "gcc" "CMakeFiles/RocketSimulator.dir/src/main.cpp.obj.d"
+  "C:/Users/agbem/OneDrive/Projects/RocketSimulator/src/ui/mainMenu.cpp" "CMakeFiles/RocketSimulator.dir/src/ui/mainMenu.cpp.obj" "gcc" "CMakeFiles/RocketSimulator.dir/src/ui/mainMenu.cpp.obj.d"
+  "C:/Users/agbem/OneDrive/Projects/RocketSimulator/src/ui/rocketConfig.cpp" "CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.obj" "gcc" "CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

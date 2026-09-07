@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/RocketSimulator.dir/src/main.cpp.obj"
   "CMakeFiles/RocketSimulator.dir/src/main.cpp.obj.d"
+  "CMakeFiles/RocketSimulator.dir/src/ui/mainMenu.cpp.obj"
+  "CMakeFiles/RocketSimulator.dir/src/ui/mainMenu.cpp.obj.d"
+  "CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.obj"
+  "CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.obj.d"
   "RocketSimulator.exe"
   "RocketSimulator.exe.manifest"
   "RocketSimulator.pdb"

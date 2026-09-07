@@ -1,8 +1,20 @@
 [
 {
   "directory": "C:/Users/agbem/OneDrive/Projects/RocketSimulator/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\RocketSimulator.dir\\src\\main.cpp.obj -c C:\\Users\\agbem\\OneDrive\\Projects\\RocketSimulator\\src\\main.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\RocketSimulator.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RocketSimulator.dir\\src\\main.cpp.obj -c C:\\Users\\agbem\\OneDrive\\Projects\\RocketSimulator\\src\\main.cpp",
   "file": "C:/Users/agbem/OneDrive/Projects/RocketSimulator/src/main.cpp",
   "output": "CMakeFiles/RocketSimulator.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/agbem/OneDrive/Projects/RocketSimulator/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\RocketSimulator.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RocketSimulator.dir\\src\\ui\\mainMenu.cpp.obj -c C:\\Users\\agbem\\OneDrive\\Projects\\RocketSimulator\\src\\ui\\mainMenu.cpp",
+  "file": "C:/Users/agbem/OneDrive/Projects/RocketSimulator/src/ui/mainMenu.cpp",
+  "output": "CMakeFiles/RocketSimulator.dir/src/ui/mainMenu.cpp.obj"
+},
+{
+  "directory": "C:/Users/agbem/OneDrive/Projects/RocketSimulator/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\RocketSimulator.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RocketSimulator.dir\\src\\ui\\rocketConfig.cpp.obj -c C:\\Users\\agbem\\OneDrive\\Projects\\RocketSimulator\\src\\ui\\rocketConfig.cpp",
+  "file": "C:/Users/agbem/OneDrive/Projects/RocketSimulator/src/ui/rocketConfig.cpp",
+  "output": "CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.obj"
 }
 ]

@@ -152,6 +152,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RocketSimulator.dir\build.make CMakeFiles/RocketSimulator.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/ui/mainMenu.obj: src/ui/mainMenu.cpp.obj
+.PHONY : src/ui/mainMenu.obj
+
+# target to build an object file
+src/ui/mainMenu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RocketSimulator.dir\build.make CMakeFiles/RocketSimulator.dir/src/ui/mainMenu.cpp.obj
+.PHONY : src/ui/mainMenu.cpp.obj
+
+src/ui/mainMenu.i: src/ui/mainMenu.cpp.i
+.PHONY : src/ui/mainMenu.i
+
+# target to preprocess a source file
+src/ui/mainMenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RocketSimulator.dir\build.make CMakeFiles/RocketSimulator.dir/src/ui/mainMenu.cpp.i
+.PHONY : src/ui/mainMenu.cpp.i
+
+src/ui/mainMenu.s: src/ui/mainMenu.cpp.s
+.PHONY : src/ui/mainMenu.s
+
+# target to generate assembly for a file
+src/ui/mainMenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RocketSimulator.dir\build.make CMakeFiles/RocketSimulator.dir/src/ui/mainMenu.cpp.s
+.PHONY : src/ui/mainMenu.cpp.s
+
+src/ui/rocketConfig.obj: src/ui/rocketConfig.cpp.obj
+.PHONY : src/ui/rocketConfig.obj
+
+# target to build an object file
+src/ui/rocketConfig.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RocketSimulator.dir\build.make CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.obj
+.PHONY : src/ui/rocketConfig.cpp.obj
+
+src/ui/rocketConfig.i: src/ui/rocketConfig.cpp.i
+.PHONY : src/ui/rocketConfig.i
+
+# target to preprocess a source file
+src/ui/rocketConfig.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RocketSimulator.dir\build.make CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.i
+.PHONY : src/ui/rocketConfig.cpp.i
+
+src/ui/rocketConfig.s: src/ui/rocketConfig.cpp.s
+.PHONY : src/ui/rocketConfig.s
+
+# target to generate assembly for a file
+src/ui/rocketConfig.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RocketSimulator.dir\build.make CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.s
+.PHONY : src/ui/rocketConfig.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +212,12 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/ui/mainMenu.obj
+	@echo ... src/ui/mainMenu.i
+	@echo ... src/ui/mainMenu.s
+	@echo ... src/ui/rocketConfig.obj
+	@echo ... src/ui/rocketConfig.i
+	@echo ... src/ui/rocketConfig.s
 .PHONY : help
 
 

@@ -72,6 +72,7 @@ CMakeFiles/RocketSimulator.dir/codegen:
 .PHONY : CMakeFiles/RocketSimulator.dir/codegen
 
 CMakeFiles/RocketSimulator.dir/src/main.cpp.obj: CMakeFiles/RocketSimulator.dir/flags.make
+CMakeFiles/RocketSimulator.dir/src/main.cpp.obj: CMakeFiles/RocketSimulator.dir/includes_CXX.rsp
 CMakeFiles/RocketSimulator.dir/src/main.cpp.obj: C:/Users/agbem/OneDrive/Projects/RocketSimulator/src/main.cpp
 CMakeFiles/RocketSimulator.dir/src/main.cpp.obj: CMakeFiles/RocketSimulator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\agbem\OneDrive\Projects\RocketSimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RocketSimulator.dir/src/main.cpp.obj"
@@ -85,14 +86,48 @@ CMakeFiles/RocketSimulator.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RocketSimulator.dir/src/main.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\main.cpp -o CMakeFiles\RocketSimulator.dir\src\main.cpp.s
 
+CMakeFiles/RocketSimulator.dir/src/ui/mainMenu.cpp.obj: CMakeFiles/RocketSimulator.dir/flags.make
+CMakeFiles/RocketSimulator.dir/src/ui/mainMenu.cpp.obj: CMakeFiles/RocketSimulator.dir/includes_CXX.rsp
+CMakeFiles/RocketSimulator.dir/src/ui/mainMenu.cpp.obj: C:/Users/agbem/OneDrive/Projects/RocketSimulator/src/ui/mainMenu.cpp
+CMakeFiles/RocketSimulator.dir/src/ui/mainMenu.cpp.obj: CMakeFiles/RocketSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\agbem\OneDrive\Projects\RocketSimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RocketSimulator.dir/src/ui/mainMenu.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RocketSimulator.dir/src/ui/mainMenu.cpp.obj -MF CMakeFiles\RocketSimulator.dir\src\ui\mainMenu.cpp.obj.d -o CMakeFiles\RocketSimulator.dir\src\ui\mainMenu.cpp.obj -c C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\ui\mainMenu.cpp
+
+CMakeFiles/RocketSimulator.dir/src/ui/mainMenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RocketSimulator.dir/src/ui/mainMenu.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\ui\mainMenu.cpp > CMakeFiles\RocketSimulator.dir\src\ui\mainMenu.cpp.i
+
+CMakeFiles/RocketSimulator.dir/src/ui/mainMenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RocketSimulator.dir/src/ui/mainMenu.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\ui\mainMenu.cpp -o CMakeFiles\RocketSimulator.dir\src\ui\mainMenu.cpp.s
+
+CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.obj: CMakeFiles/RocketSimulator.dir/flags.make
+CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.obj: CMakeFiles/RocketSimulator.dir/includes_CXX.rsp
+CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.obj: C:/Users/agbem/OneDrive/Projects/RocketSimulator/src/ui/rocketConfig.cpp
+CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.obj: CMakeFiles/RocketSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\agbem\OneDrive\Projects\RocketSimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.obj -MF CMakeFiles\RocketSimulator.dir\src\ui\rocketConfig.cpp.obj.d -o CMakeFiles\RocketSimulator.dir\src\ui\rocketConfig.cpp.obj -c C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\ui\rocketConfig.cpp
+
+CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\ui\rocketConfig.cpp > CMakeFiles\RocketSimulator.dir\src\ui\rocketConfig.cpp.i
+
+CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\ui\rocketConfig.cpp -o CMakeFiles\RocketSimulator.dir\src\ui\rocketConfig.cpp.s
+
 # Object files for target RocketSimulator
 RocketSimulator_OBJECTS = \
-"CMakeFiles/RocketSimulator.dir/src/main.cpp.obj"
+"CMakeFiles/RocketSimulator.dir/src/main.cpp.obj" \
+"CMakeFiles/RocketSimulator.dir/src/ui/mainMenu.cpp.obj" \
+"CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.obj"
 
 # External object files for target RocketSimulator
 RocketSimulator_EXTERNAL_OBJECTS =
 
 RocketSimulator.exe: CMakeFiles/RocketSimulator.dir/src/main.cpp.obj
+RocketSimulator.exe: CMakeFiles/RocketSimulator.dir/src/ui/mainMenu.cpp.obj
+RocketSimulator.exe: CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.obj
 RocketSimulator.exe: CMakeFiles/RocketSimulator.dir/build.make
 RocketSimulator.exe: C:/msys64/ucrt64/lib/libsfml-graphics.dll.a
 RocketSimulator.exe: C:/msys64/ucrt64/lib/libsfml-window.dll.a
@@ -100,7 +135,7 @@ RocketSimulator.exe: C:/msys64/ucrt64/lib/libsfml-system.dll.a
 RocketSimulator.exe: CMakeFiles/RocketSimulator.dir/linkLibs.rsp
 RocketSimulator.exe: CMakeFiles/RocketSimulator.dir/objects1.rsp
 RocketSimulator.exe: CMakeFiles/RocketSimulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\agbem\OneDrive\Projects\RocketSimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable RocketSimulator.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\agbem\OneDrive\Projects\RocketSimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable RocketSimulator.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\RocketSimulator.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

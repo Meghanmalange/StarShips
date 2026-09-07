@@ -1,5 +1,6 @@
-CMakeFiles/RocketSimulator.dir/src/main.cpp.obj: \
- C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\main.cpp \
+CMakeFiles/RocketSimulator.dir/src/ui/mainMenu.cpp.obj: \
+ C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\ui\mainMenu.cpp \
+ C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/ui/mainMenu.h \
  C:/msys64/ucrt64/include/SFML/Graphics.hpp \
  C:/msys64/ucrt64/include/SFML/Graphics/BlendMode.hpp \
  C:/msys64/ucrt64/include/SFML/Graphics/Export.hpp \
@@ -291,6 +292,4 @@ CMakeFiles/RocketSimulator.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/SFML/System/FileInputStream.hpp \
  C:/msys64/ucrt64/include/SFML/System/InputStream.hpp \
  C:/msys64/ucrt64/include/SFML/System/MemoryInputStream.hpp \
- C:/msys64/ucrt64/include/SFML/System/Sleep.hpp \
- C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/ui/mainMenu.h \
- C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/ui/rocketConfig.h
+ C:/msys64/ucrt64/include/SFML/System/Sleep.hpp

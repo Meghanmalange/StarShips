@@ -1,5 +1,6 @@
-CMakeFiles/RocketSimulator.dir/src/main.cpp.obj: \
- C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\main.cpp \
+CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.obj: \
+ C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\ui\rocketConfig.cpp \
+ C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/ui/rocketConfig.h \
  C:/msys64/ucrt64/include/SFML/Graphics.hpp \
  C:/msys64/ucrt64/include/SFML/Graphics/BlendMode.hpp \
  C:/msys64/ucrt64/include/SFML/Graphics/Export.hpp \
@@ -292,5 +293,9 @@ CMakeFiles/RocketSimulator.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/SFML/System/InputStream.hpp \
  C:/msys64/ucrt64/include/SFML/System/MemoryInputStream.hpp \
  C:/msys64/ucrt64/include/SFML/System/Sleep.hpp \
- C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/ui/mainMenu.h \
- C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/ui/rocketConfig.h
+ C:/msys64/ucrt64/include/c++/16.1.0/algorithm \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/stl_algo.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/algorithmfwd.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/stl_heap.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/uniform_int_dist.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/pstl/glue_algorithm_defs.h
