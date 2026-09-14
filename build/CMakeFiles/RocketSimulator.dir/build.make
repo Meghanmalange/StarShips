@@ -116,11 +116,91 @@ CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\ui\rocketConfig.cpp -o CMakeFiles\RocketSimulator.dir\src\ui\rocketConfig.cpp.s
 
+CMakeFiles/RocketSimulator.dir/src/simulation/camera.cpp.obj: CMakeFiles/RocketSimulator.dir/flags.make
+CMakeFiles/RocketSimulator.dir/src/simulation/camera.cpp.obj: CMakeFiles/RocketSimulator.dir/includes_CXX.rsp
+CMakeFiles/RocketSimulator.dir/src/simulation/camera.cpp.obj: C:/Users/agbem/OneDrive/Projects/RocketSimulator/src/simulation/camera.cpp
+CMakeFiles/RocketSimulator.dir/src/simulation/camera.cpp.obj: CMakeFiles/RocketSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\agbem\OneDrive\Projects\RocketSimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RocketSimulator.dir/src/simulation/camera.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RocketSimulator.dir/src/simulation/camera.cpp.obj -MF CMakeFiles\RocketSimulator.dir\src\simulation\camera.cpp.obj.d -o CMakeFiles\RocketSimulator.dir\src\simulation\camera.cpp.obj -c C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\simulation\camera.cpp
+
+CMakeFiles/RocketSimulator.dir/src/simulation/camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RocketSimulator.dir/src/simulation/camera.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\simulation\camera.cpp > CMakeFiles\RocketSimulator.dir\src\simulation\camera.cpp.i
+
+CMakeFiles/RocketSimulator.dir/src/simulation/camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RocketSimulator.dir/src/simulation/camera.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\simulation\camera.cpp -o CMakeFiles\RocketSimulator.dir\src\simulation\camera.cpp.s
+
+CMakeFiles/RocketSimulator.dir/src/simulation/inputManager.cpp.obj: CMakeFiles/RocketSimulator.dir/flags.make
+CMakeFiles/RocketSimulator.dir/src/simulation/inputManager.cpp.obj: CMakeFiles/RocketSimulator.dir/includes_CXX.rsp
+CMakeFiles/RocketSimulator.dir/src/simulation/inputManager.cpp.obj: C:/Users/agbem/OneDrive/Projects/RocketSimulator/src/simulation/inputManager.cpp
+CMakeFiles/RocketSimulator.dir/src/simulation/inputManager.cpp.obj: CMakeFiles/RocketSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\agbem\OneDrive\Projects\RocketSimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RocketSimulator.dir/src/simulation/inputManager.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RocketSimulator.dir/src/simulation/inputManager.cpp.obj -MF CMakeFiles\RocketSimulator.dir\src\simulation\inputManager.cpp.obj.d -o CMakeFiles\RocketSimulator.dir\src\simulation\inputManager.cpp.obj -c C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\simulation\inputManager.cpp
+
+CMakeFiles/RocketSimulator.dir/src/simulation/inputManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RocketSimulator.dir/src/simulation/inputManager.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\simulation\inputManager.cpp > CMakeFiles\RocketSimulator.dir\src\simulation\inputManager.cpp.i
+
+CMakeFiles/RocketSimulator.dir/src/simulation/inputManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RocketSimulator.dir/src/simulation/inputManager.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\simulation\inputManager.cpp -o CMakeFiles\RocketSimulator.dir\src\simulation\inputManager.cpp.s
+
+CMakeFiles/RocketSimulator.dir/src/simulation/physicsEngine.cpp.obj: CMakeFiles/RocketSimulator.dir/flags.make
+CMakeFiles/RocketSimulator.dir/src/simulation/physicsEngine.cpp.obj: CMakeFiles/RocketSimulator.dir/includes_CXX.rsp
+CMakeFiles/RocketSimulator.dir/src/simulation/physicsEngine.cpp.obj: C:/Users/agbem/OneDrive/Projects/RocketSimulator/src/simulation/physicsEngine.cpp
+CMakeFiles/RocketSimulator.dir/src/simulation/physicsEngine.cpp.obj: CMakeFiles/RocketSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\agbem\OneDrive\Projects\RocketSimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RocketSimulator.dir/src/simulation/physicsEngine.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RocketSimulator.dir/src/simulation/physicsEngine.cpp.obj -MF CMakeFiles\RocketSimulator.dir\src\simulation\physicsEngine.cpp.obj.d -o CMakeFiles\RocketSimulator.dir\src\simulation\physicsEngine.cpp.obj -c C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\simulation\physicsEngine.cpp
+
+CMakeFiles/RocketSimulator.dir/src/simulation/physicsEngine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RocketSimulator.dir/src/simulation/physicsEngine.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\simulation\physicsEngine.cpp > CMakeFiles\RocketSimulator.dir\src\simulation\physicsEngine.cpp.i
+
+CMakeFiles/RocketSimulator.dir/src/simulation/physicsEngine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RocketSimulator.dir/src/simulation/physicsEngine.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\simulation\physicsEngine.cpp -o CMakeFiles\RocketSimulator.dir\src\simulation\physicsEngine.cpp.s
+
+CMakeFiles/RocketSimulator.dir/src/simulation/render.cpp.obj: CMakeFiles/RocketSimulator.dir/flags.make
+CMakeFiles/RocketSimulator.dir/src/simulation/render.cpp.obj: CMakeFiles/RocketSimulator.dir/includes_CXX.rsp
+CMakeFiles/RocketSimulator.dir/src/simulation/render.cpp.obj: C:/Users/agbem/OneDrive/Projects/RocketSimulator/src/simulation/render.cpp
+CMakeFiles/RocketSimulator.dir/src/simulation/render.cpp.obj: CMakeFiles/RocketSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\agbem\OneDrive\Projects\RocketSimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RocketSimulator.dir/src/simulation/render.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RocketSimulator.dir/src/simulation/render.cpp.obj -MF CMakeFiles\RocketSimulator.dir\src\simulation\render.cpp.obj.d -o CMakeFiles\RocketSimulator.dir\src\simulation\render.cpp.obj -c C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\simulation\render.cpp
+
+CMakeFiles/RocketSimulator.dir/src/simulation/render.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RocketSimulator.dir/src/simulation/render.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\simulation\render.cpp > CMakeFiles\RocketSimulator.dir\src\simulation\render.cpp.i
+
+CMakeFiles/RocketSimulator.dir/src/simulation/render.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RocketSimulator.dir/src/simulation/render.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\simulation\render.cpp -o CMakeFiles\RocketSimulator.dir\src\simulation\render.cpp.s
+
+CMakeFiles/RocketSimulator.dir/src/simulation/simulation.cpp.obj: CMakeFiles/RocketSimulator.dir/flags.make
+CMakeFiles/RocketSimulator.dir/src/simulation/simulation.cpp.obj: CMakeFiles/RocketSimulator.dir/includes_CXX.rsp
+CMakeFiles/RocketSimulator.dir/src/simulation/simulation.cpp.obj: C:/Users/agbem/OneDrive/Projects/RocketSimulator/src/simulation/simulation.cpp
+CMakeFiles/RocketSimulator.dir/src/simulation/simulation.cpp.obj: CMakeFiles/RocketSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\agbem\OneDrive\Projects\RocketSimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RocketSimulator.dir/src/simulation/simulation.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RocketSimulator.dir/src/simulation/simulation.cpp.obj -MF CMakeFiles\RocketSimulator.dir\src\simulation\simulation.cpp.obj.d -o CMakeFiles\RocketSimulator.dir\src\simulation\simulation.cpp.obj -c C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\simulation\simulation.cpp
+
+CMakeFiles/RocketSimulator.dir/src/simulation/simulation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RocketSimulator.dir/src/simulation/simulation.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\simulation\simulation.cpp > CMakeFiles\RocketSimulator.dir\src\simulation\simulation.cpp.i
+
+CMakeFiles/RocketSimulator.dir/src/simulation/simulation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RocketSimulator.dir/src/simulation/simulation.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\simulation\simulation.cpp -o CMakeFiles\RocketSimulator.dir\src\simulation\simulation.cpp.s
+
 # Object files for target RocketSimulator
 RocketSimulator_OBJECTS = \
 "CMakeFiles/RocketSimulator.dir/src/main.cpp.obj" \
 "CMakeFiles/RocketSimulator.dir/src/ui/mainMenu.cpp.obj" \
-"CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.obj"
+"CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.obj" \
+"CMakeFiles/RocketSimulator.dir/src/simulation/camera.cpp.obj" \
+"CMakeFiles/RocketSimulator.dir/src/simulation/inputManager.cpp.obj" \
+"CMakeFiles/RocketSimulator.dir/src/simulation/physicsEngine.cpp.obj" \
+"CMakeFiles/RocketSimulator.dir/src/simulation/render.cpp.obj" \
+"CMakeFiles/RocketSimulator.dir/src/simulation/simulation.cpp.obj"
 
 # External object files for target RocketSimulator
 RocketSimulator_EXTERNAL_OBJECTS =
@@ -128,6 +208,11 @@ RocketSimulator_EXTERNAL_OBJECTS =
 RocketSimulator.exe: CMakeFiles/RocketSimulator.dir/src/main.cpp.obj
 RocketSimulator.exe: CMakeFiles/RocketSimulator.dir/src/ui/mainMenu.cpp.obj
 RocketSimulator.exe: CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.obj
+RocketSimulator.exe: CMakeFiles/RocketSimulator.dir/src/simulation/camera.cpp.obj
+RocketSimulator.exe: CMakeFiles/RocketSimulator.dir/src/simulation/inputManager.cpp.obj
+RocketSimulator.exe: CMakeFiles/RocketSimulator.dir/src/simulation/physicsEngine.cpp.obj
+RocketSimulator.exe: CMakeFiles/RocketSimulator.dir/src/simulation/render.cpp.obj
+RocketSimulator.exe: CMakeFiles/RocketSimulator.dir/src/simulation/simulation.cpp.obj
 RocketSimulator.exe: CMakeFiles/RocketSimulator.dir/build.make
 RocketSimulator.exe: C:/msys64/ucrt64/lib/libsfml-graphics.dll.a
 RocketSimulator.exe: C:/msys64/ucrt64/lib/libsfml-window.dll.a
@@ -135,7 +220,7 @@ RocketSimulator.exe: C:/msys64/ucrt64/lib/libsfml-system.dll.a
 RocketSimulator.exe: CMakeFiles/RocketSimulator.dir/linkLibs.rsp
 RocketSimulator.exe: CMakeFiles/RocketSimulator.dir/objects1.rsp
 RocketSimulator.exe: CMakeFiles/RocketSimulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\agbem\OneDrive\Projects\RocketSimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable RocketSimulator.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\agbem\OneDrive\Projects\RocketSimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable RocketSimulator.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\RocketSimulator.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

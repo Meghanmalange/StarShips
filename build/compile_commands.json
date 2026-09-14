@@ -16,5 +16,35 @@
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\RocketSimulator.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RocketSimulator.dir\\src\\ui\\rocketConfig.cpp.obj -c C:\\Users\\agbem\\OneDrive\\Projects\\RocketSimulator\\src\\ui\\rocketConfig.cpp",
   "file": "C:/Users/agbem/OneDrive/Projects/RocketSimulator/src/ui/rocketConfig.cpp",
   "output": "CMakeFiles/RocketSimulator.dir/src/ui/rocketConfig.cpp.obj"
+},
+{
+  "directory": "C:/Users/agbem/OneDrive/Projects/RocketSimulator/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\RocketSimulator.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RocketSimulator.dir\\src\\simulation\\camera.cpp.obj -c C:\\Users\\agbem\\OneDrive\\Projects\\RocketSimulator\\src\\simulation\\camera.cpp",
+  "file": "C:/Users/agbem/OneDrive/Projects/RocketSimulator/src/simulation/camera.cpp",
+  "output": "CMakeFiles/RocketSimulator.dir/src/simulation/camera.cpp.obj"
+},
+{
+  "directory": "C:/Users/agbem/OneDrive/Projects/RocketSimulator/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\RocketSimulator.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RocketSimulator.dir\\src\\simulation\\inputManager.cpp.obj -c C:\\Users\\agbem\\OneDrive\\Projects\\RocketSimulator\\src\\simulation\\inputManager.cpp",
+  "file": "C:/Users/agbem/OneDrive/Projects/RocketSimulator/src/simulation/inputManager.cpp",
+  "output": "CMakeFiles/RocketSimulator.dir/src/simulation/inputManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/agbem/OneDrive/Projects/RocketSimulator/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\RocketSimulator.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RocketSimulator.dir\\src\\simulation\\physicsEngine.cpp.obj -c C:\\Users\\agbem\\OneDrive\\Projects\\RocketSimulator\\src\\simulation\\physicsEngine.cpp",
+  "file": "C:/Users/agbem/OneDrive/Projects/RocketSimulator/src/simulation/physicsEngine.cpp",
+  "output": "CMakeFiles/RocketSimulator.dir/src/simulation/physicsEngine.cpp.obj"
+},
+{
+  "directory": "C:/Users/agbem/OneDrive/Projects/RocketSimulator/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\RocketSimulator.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RocketSimulator.dir\\src\\simulation\\render.cpp.obj -c C:\\Users\\agbem\\OneDrive\\Projects\\RocketSimulator\\src\\simulation\\render.cpp",
+  "file": "C:/Users/agbem/OneDrive/Projects/RocketSimulator/src/simulation/render.cpp",
+  "output": "CMakeFiles/RocketSimulator.dir/src/simulation/render.cpp.obj"
+},
+{
+  "directory": "C:/Users/agbem/OneDrive/Projects/RocketSimulator/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\RocketSimulator.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RocketSimulator.dir\\src\\simulation\\simulation.cpp.obj -c C:\\Users\\agbem\\OneDrive\\Projects\\RocketSimulator\\src\\simulation\\simulation.cpp",
+  "file": "C:/Users/agbem/OneDrive/Projects/RocketSimulator/src/simulation/simulation.cpp",
+  "output": "CMakeFiles/RocketSimulator.dir/src/simulation/simulation.cpp.obj"
 }
 ]

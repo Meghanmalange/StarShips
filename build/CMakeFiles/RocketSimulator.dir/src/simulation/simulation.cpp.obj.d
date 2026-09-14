@@ -1,11 +1,11 @@
-CMakeFiles/RocketSimulator.dir/src/main.cpp.obj: \
- C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\main.cpp \
- C:/msys64/ucrt64/include/SFML/Graphics.hpp \
- C:/msys64/ucrt64/include/SFML/Graphics/BlendMode.hpp \
+CMakeFiles/RocketSimulator.dir/src/simulation/simulation.cpp.obj: \
+ C:\Users\agbem\OneDrive\Projects\RocketSimulator\src\simulation\simulation.cpp \
+ C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/simulation.h \
+ C:/msys64/ucrt64/include/SFML/Graphics/RenderWindow.hpp \
  C:/msys64/ucrt64/include/SFML/Graphics/Export.hpp \
  C:/msys64/ucrt64/include/SFML/Config.hpp \
- C:/msys64/ucrt64/include/SFML/Graphics/CircleShape.hpp \
- C:/msys64/ucrt64/include/SFML/Graphics/Shape.hpp \
+ C:/msys64/ucrt64/include/SFML/Graphics/RenderTarget.hpp \
+ C:/msys64/ucrt64/include/SFML/Graphics/BlendMode.hpp \
  C:/msys64/ucrt64/include/SFML/Graphics/Color.hpp \
  C:/msys64/ucrt64/include/c++/16.1.0/cstdint \
  C:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -21,7 +21,7 @@ CMakeFiles/RocketSimulator.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stddef.h \
  C:/msys64/ucrt64/include/stddef.h \
  C:/msys64/ucrt64/include/SFML/Graphics/Color.inl \
- C:/msys64/ucrt64/include/SFML/Graphics/Drawable.hpp \
+ C:/msys64/ucrt64/include/SFML/Graphics/CoordinateType.hpp \
  C:/msys64/ucrt64/include/SFML/Graphics/PrimitiveType.hpp \
  C:/msys64/ucrt64/include/SFML/Graphics/Rect.hpp \
  C:/msys64/ucrt64/include/SFML/System/Vector2.hpp \
@@ -68,7 +68,6 @@ CMakeFiles/RocketSimulator.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/utility.h \
  C:/msys64/ucrt64/include/SFML/Graphics/Rect.inl \
  C:/msys64/ucrt64/include/SFML/Graphics/RenderStates.hpp \
- C:/msys64/ucrt64/include/SFML/Graphics/CoordinateType.hpp \
  C:/msys64/ucrt64/include/SFML/Graphics/StencilMode.hpp \
  C:/msys64/ucrt64/include/SFML/Graphics/Transform.hpp \
  C:/msys64/ucrt64/include/c++/16.1.0/array \
@@ -91,9 +90,11 @@ CMakeFiles/RocketSimulator.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/range_access.h \
  C:/msys64/ucrt64/include/SFML/Graphics/Transform.inl \
  C:/msys64/ucrt64/include/c++/16.1.0/cstddef \
- C:/msys64/ucrt64/include/SFML/Graphics/Transformable.hpp \
- C:/msys64/ucrt64/include/SFML/Graphics/VertexArray.hpp \
  C:/msys64/ucrt64/include/SFML/Graphics/Vertex.hpp \
+ C:/msys64/ucrt64/include/SFML/Graphics/View.hpp \
+ C:/msys64/ucrt64/include/SFML/Window/ContextSettings.hpp \
+ C:/msys64/ucrt64/include/SFML/Window/VideoMode.hpp \
+ C:/msys64/ucrt64/include/SFML/Window/Export.hpp \
  C:/msys64/ucrt64/include/c++/16.1.0/vector \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/allocator.h \
@@ -113,12 +114,8 @@ CMakeFiles/RocketSimulator.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/uses_allocator_args.h \
  C:/msys64/ucrt64/include/c++/16.1.0/tuple \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/invoke.h \
- C:/msys64/ucrt64/include/SFML/Graphics/ConvexShape.hpp \
- C:/msys64/ucrt64/include/SFML/Graphics/Font.hpp \
- C:/msys64/ucrt64/include/SFML/Graphics/Glyph.hpp \
- C:/msys64/ucrt64/include/SFML/Graphics/Texture.hpp \
+ C:/msys64/ucrt64/include/SFML/Window/Window.hpp \
  C:/msys64/ucrt64/include/SFML/Window/GlResource.hpp \
- C:/msys64/ucrt64/include/SFML/Window/Export.hpp \
  C:/msys64/ucrt64/include/c++/16.1.0/memory \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/stl_tempbuf.h \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/stl_raw_storage_iter.h \
@@ -166,14 +163,24 @@ CMakeFiles/RocketSimulator.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/16.1.0/backward/auto_ptr.h \
  C:/msys64/ucrt64/include/c++/16.1.0/pstl/glue_memory_defs.h \
  C:/msys64/ucrt64/include/c++/16.1.0/pstl/execution_defs.h \
- C:/msys64/ucrt64/include/c++/16.1.0/filesystem \
- C:/msys64/ucrt64/include/c++/16.1.0/bits/fs_fwd.h \
- C:/msys64/ucrt64/include/c++/16.1.0/system_error \
- C:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/error_constants.h \
- C:/msys64/ucrt64/include/c++/16.1.0/cerrno \
- C:/msys64/ucrt64/include/c++/16.1.0/stdexcept \
- C:/msys64/ucrt64/include/c++/16.1.0/string \
- C:/msys64/ucrt64/include/c++/16.1.0/bits/char_traits.h \
+ C:/msys64/ucrt64/include/SFML/Window/WindowBase.hpp \
+ C:/msys64/ucrt64/include/SFML/Window/Vulkan.hpp \
+ C:/msys64/ucrt64/include/SFML/Window/WindowEnums.hpp \
+ C:/msys64/ucrt64/include/SFML/Window/WindowHandle.hpp \
+ C:/msys64/ucrt64/include/SFML/System/Time.hpp \
+ C:/msys64/ucrt64/include/c++/16.1.0/chrono \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/chrono.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/ratio \
+ C:/msys64/ucrt64/include/c++/16.1.0/limits \
+ C:/msys64/ucrt64/include/c++/16.1.0/ctime \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/parse_numbers.h \
+ C:/msys64/ucrt64/include/SFML/System/Time.inl \
+ C:/msys64/ucrt64/include/SFML/Window/WindowBase.inl \
+ C:/msys64/ucrt64/include/SFML/Window/Event.hpp \
+ C:/msys64/ucrt64/include/SFML/Window/Joystick.hpp \
+ C:/msys64/ucrt64/include/SFML/System/String.hpp \
+ C:/msys64/ucrt64/include/SFML/System/Utf.hpp \
+ C:/msys64/ucrt64/include/c++/16.1.0/locale \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/localefwd.h \
  C:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++locale.h \
  C:/msys64/ucrt64/include/c++/16.1.0/clocale \
@@ -181,6 +188,10 @@ CMakeFiles/RocketSimulator.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
  C:/msys64/ucrt64/include/c++/16.1.0/cctype \
  C:/msys64/ucrt64/include/ctype.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/locale_classes.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/functexcept.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/string \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/char_traits.h \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/ostream_insert.h \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/cxxabi_forced.h \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/basic_string.h \
@@ -188,24 +199,19 @@ CMakeFiles/RocketSimulator.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/string_view.tcc \
  C:/msys64/ucrt64/include/c++/16.1.0/ext/string_conversions.h \
  C:/msys64/ucrt64/include/c++/16.1.0/cstdio \
+ C:/msys64/ucrt64/include/c++/16.1.0/cerrno \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/charconv.h \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/basic_string.tcc \
- C:/msys64/ucrt64/include/c++/16.1.0/bits/stdexcept_except.h \
- C:/msys64/ucrt64/include/c++/16.1.0/bits/chrono.h \
- C:/msys64/ucrt64/include/c++/16.1.0/ratio \
- C:/msys64/ucrt64/include/c++/16.1.0/limits \
- C:/msys64/ucrt64/include/c++/16.1.0/ctime \
- C:/msys64/ucrt64/include/c++/16.1.0/bits/parse_numbers.h \
- C:/msys64/ucrt64/include/c++/16.1.0/bits/fs_path.h \
- C:/msys64/ucrt64/include/c++/16.1.0/locale \
- C:/msys64/ucrt64/include/c++/16.1.0/bits/locale_classes.h \
- C:/msys64/ucrt64/include/c++/16.1.0/bits/functexcept.h \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/locale_classes.tcc \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/locale_facets.h \
  C:/msys64/ucrt64/include/c++/16.1.0/cwctype \
  C:/msys64/ucrt64/include/wctype.h \
  C:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/ctype_base.h \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/ios_base.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/system_error \
+ C:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/error_constants.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/stdexcept \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/stdexcept_except.h \
  C:/msys64/ucrt64/include/c++/16.1.0/streambuf \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/streambuf.tcc \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/streambuf_iterator.h \
@@ -217,6 +223,27 @@ CMakeFiles/RocketSimulator.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/codecvt.h \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/locale_facets_nonio.tcc \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/locale_conv.h \
+ C:/msys64/ucrt64/include/SFML/System/Utf.inl \
+ C:/msys64/ucrt64/include/SFML/System/String.inl \
+ C:/msys64/ucrt64/include/c++/16.1.0/iterator \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/stream_iterator.h \
+ C:/msys64/ucrt64/include/SFML/Window/Keyboard.hpp \
+ C:/msys64/ucrt64/include/SFML/Window/Mouse.hpp \
+ C:/msys64/ucrt64/include/SFML/Window/Sensor.hpp \
+ C:/msys64/ucrt64/include/SFML/System/Vector3.hpp \
+ C:/msys64/ucrt64/include/SFML/System/Vector3.inl \
+ C:/msys64/ucrt64/include/c++/16.1.0/variant \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/monostate.h \
+ C:/msys64/ucrt64/include/SFML/Window/Event.inl \
+ C:/msys64/ucrt64/include/c++/16.1.0/utility \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/stl_relops.h \
+ C:/msys64/ucrt64/include/SFML/System/Clock.hpp \
+ C:/msys64/ucrt64/include/SFML/Graphics/Font.hpp \
+ C:/msys64/ucrt64/include/SFML/Graphics/Glyph.hpp \
+ C:/msys64/ucrt64/include/SFML/Graphics/Texture.hpp \
+ C:/msys64/ucrt64/include/c++/16.1.0/filesystem \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/fs_fwd.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/fs_path.h \
  C:/msys64/ucrt64/include/c++/16.1.0/iomanip \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/quoted_string.h \
  C:/msys64/ucrt64/include/c++/16.1.0/sstream \
@@ -238,70 +265,16 @@ CMakeFiles/RocketSimulator.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/hashtable.h \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/hashtable_policy.h \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/node_handle.h \
- C:/msys64/ucrt64/include/SFML/Graphics/Image.hpp \
- C:/msys64/ucrt64/include/SFML/Graphics/RectangleShape.hpp \
- C:/msys64/ucrt64/include/SFML/Graphics/RenderTarget.hpp \
- C:/msys64/ucrt64/include/SFML/Graphics/View.hpp \
- C:/msys64/ucrt64/include/SFML/Graphics/RenderTexture.hpp \
- C:/msys64/ucrt64/include/SFML/Window/ContextSettings.hpp \
- C:/msys64/ucrt64/include/SFML/Graphics/RenderWindow.hpp \
- C:/msys64/ucrt64/include/SFML/Window/VideoMode.hpp \
- C:/msys64/ucrt64/include/SFML/Window/Window.hpp \
- C:/msys64/ucrt64/include/SFML/Window/WindowBase.hpp \
- C:/msys64/ucrt64/include/SFML/Window/Vulkan.hpp \
- C:/msys64/ucrt64/include/SFML/Window/WindowEnums.hpp \
- C:/msys64/ucrt64/include/SFML/Window/WindowHandle.hpp \
- C:/msys64/ucrt64/include/SFML/System/Time.hpp \
- C:/msys64/ucrt64/include/c++/16.1.0/chrono \
- C:/msys64/ucrt64/include/SFML/System/Time.inl \
- C:/msys64/ucrt64/include/SFML/Window/WindowBase.inl \
- C:/msys64/ucrt64/include/SFML/Window/Event.hpp \
- C:/msys64/ucrt64/include/SFML/Window/Joystick.hpp \
- C:/msys64/ucrt64/include/SFML/System/String.hpp \
- C:/msys64/ucrt64/include/SFML/System/Utf.hpp \
- C:/msys64/ucrt64/include/SFML/System/Utf.inl \
- C:/msys64/ucrt64/include/SFML/System/String.inl \
- C:/msys64/ucrt64/include/c++/16.1.0/iterator \
- C:/msys64/ucrt64/include/c++/16.1.0/bits/stream_iterator.h \
- C:/msys64/ucrt64/include/SFML/Window/Keyboard.hpp \
- C:/msys64/ucrt64/include/SFML/Window/Mouse.hpp \
- C:/msys64/ucrt64/include/SFML/Window/Sensor.hpp \
- C:/msys64/ucrt64/include/SFML/System/Vector3.hpp \
- C:/msys64/ucrt64/include/SFML/System/Vector3.inl \
- C:/msys64/ucrt64/include/c++/16.1.0/variant \
- C:/msys64/ucrt64/include/c++/16.1.0/bits/monostate.h \
- C:/msys64/ucrt64/include/SFML/Window/Event.inl \
- C:/msys64/ucrt64/include/c++/16.1.0/utility \
- C:/msys64/ucrt64/include/c++/16.1.0/bits/stl_relops.h \
- C:/msys64/ucrt64/include/SFML/System/Clock.hpp \
- C:/msys64/ucrt64/include/SFML/Graphics/Shader.hpp \
- C:/msys64/ucrt64/include/SFML/Graphics/Glsl.hpp \
- C:/msys64/ucrt64/include/SFML/Graphics/Glsl.inl \
- C:/msys64/ucrt64/include/SFML/Graphics/Sprite.hpp \
- C:/msys64/ucrt64/include/SFML/Graphics/Text.hpp \
- C:/msys64/ucrt64/include/SFML/Graphics/VertexBuffer.hpp \
- C:/msys64/ucrt64/include/SFML/Window.hpp \
- C:/msys64/ucrt64/include/SFML/Window/Clipboard.hpp \
- C:/msys64/ucrt64/include/SFML/Window/Context.hpp \
- C:/msys64/ucrt64/include/SFML/Window/Cursor.hpp \
- C:/msys64/ucrt64/include/SFML/Window/Touch.hpp \
- C:/msys64/ucrt64/include/SFML/System.hpp \
- C:/msys64/ucrt64/include/SFML/System/Err.hpp \
- C:/msys64/ucrt64/include/SFML/System/Exception.hpp \
- C:/msys64/ucrt64/include/SFML/System/FileInputStream.hpp \
- C:/msys64/ucrt64/include/SFML/System/InputStream.hpp \
- C:/msys64/ucrt64/include/SFML/System/MemoryInputStream.hpp \
- C:/msys64/ucrt64/include/SFML/System/Sleep.hpp \
+ C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/camera.h \
+ C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/gameState.h \
+ C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/inputManager.h \
+ C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/rocket.h \
  C:/msys64/ucrt64/include/c++/16.1.0/algorithm \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/stl_algo.h \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/algorithmfwd.h \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/stl_heap.h \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/uniform_int_dist.h \
  C:/msys64/ucrt64/include/c++/16.1.0/pstl/glue_algorithm_defs.h \
- C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/simulation.h \
- C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/camera.h \
- C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/gameState.h \
- C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/inputManager.h \
- C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/rocket.h \
- C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/ui/mainMenu.h \
- C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/ui/rocketConfig.h
+ C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/physicsEngine.h \
+ C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/render.h \
+ C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/world.h

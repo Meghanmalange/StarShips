@@ -152,6 +152,126 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RocketSimulator.dir\build.make CMakeFiles/RocketSimulator.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/simulation/camera.obj: src/simulation/camera.cpp.obj
+.PHONY : src/simulation/camera.obj
+
+# target to build an object file
+src/simulation/camera.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RocketSimulator.dir\build.make CMakeFiles/RocketSimulator.dir/src/simulation/camera.cpp.obj
+.PHONY : src/simulation/camera.cpp.obj
+
+src/simulation/camera.i: src/simulation/camera.cpp.i
+.PHONY : src/simulation/camera.i
+
+# target to preprocess a source file
+src/simulation/camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RocketSimulator.dir\build.make CMakeFiles/RocketSimulator.dir/src/simulation/camera.cpp.i
+.PHONY : src/simulation/camera.cpp.i
+
+src/simulation/camera.s: src/simulation/camera.cpp.s
+.PHONY : src/simulation/camera.s
+
+# target to generate assembly for a file
+src/simulation/camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RocketSimulator.dir\build.make CMakeFiles/RocketSimulator.dir/src/simulation/camera.cpp.s
+.PHONY : src/simulation/camera.cpp.s
+
+src/simulation/inputManager.obj: src/simulation/inputManager.cpp.obj
+.PHONY : src/simulation/inputManager.obj
+
+# target to build an object file
+src/simulation/inputManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RocketSimulator.dir\build.make CMakeFiles/RocketSimulator.dir/src/simulation/inputManager.cpp.obj
+.PHONY : src/simulation/inputManager.cpp.obj
+
+src/simulation/inputManager.i: src/simulation/inputManager.cpp.i
+.PHONY : src/simulation/inputManager.i
+
+# target to preprocess a source file
+src/simulation/inputManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RocketSimulator.dir\build.make CMakeFiles/RocketSimulator.dir/src/simulation/inputManager.cpp.i
+.PHONY : src/simulation/inputManager.cpp.i
+
+src/simulation/inputManager.s: src/simulation/inputManager.cpp.s
+.PHONY : src/simulation/inputManager.s
+
+# target to generate assembly for a file
+src/simulation/inputManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RocketSimulator.dir\build.make CMakeFiles/RocketSimulator.dir/src/simulation/inputManager.cpp.s
+.PHONY : src/simulation/inputManager.cpp.s
+
+src/simulation/physicsEngine.obj: src/simulation/physicsEngine.cpp.obj
+.PHONY : src/simulation/physicsEngine.obj
+
+# target to build an object file
+src/simulation/physicsEngine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RocketSimulator.dir\build.make CMakeFiles/RocketSimulator.dir/src/simulation/physicsEngine.cpp.obj
+.PHONY : src/simulation/physicsEngine.cpp.obj
+
+src/simulation/physicsEngine.i: src/simulation/physicsEngine.cpp.i
+.PHONY : src/simulation/physicsEngine.i
+
+# target to preprocess a source file
+src/simulation/physicsEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RocketSimulator.dir\build.make CMakeFiles/RocketSimulator.dir/src/simulation/physicsEngine.cpp.i
+.PHONY : src/simulation/physicsEngine.cpp.i
+
+src/simulation/physicsEngine.s: src/simulation/physicsEngine.cpp.s
+.PHONY : src/simulation/physicsEngine.s
+
+# target to generate assembly for a file
+src/simulation/physicsEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RocketSimulator.dir\build.make CMakeFiles/RocketSimulator.dir/src/simulation/physicsEngine.cpp.s
+.PHONY : src/simulation/physicsEngine.cpp.s
+
+src/simulation/render.obj: src/simulation/render.cpp.obj
+.PHONY : src/simulation/render.obj
+
+# target to build an object file
+src/simulation/render.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RocketSimulator.dir\build.make CMakeFiles/RocketSimulator.dir/src/simulation/render.cpp.obj
+.PHONY : src/simulation/render.cpp.obj
+
+src/simulation/render.i: src/simulation/render.cpp.i
+.PHONY : src/simulation/render.i
+
+# target to preprocess a source file
+src/simulation/render.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RocketSimulator.dir\build.make CMakeFiles/RocketSimulator.dir/src/simulation/render.cpp.i
+.PHONY : src/simulation/render.cpp.i
+
+src/simulation/render.s: src/simulation/render.cpp.s
+.PHONY : src/simulation/render.s
+
+# target to generate assembly for a file
+src/simulation/render.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RocketSimulator.dir\build.make CMakeFiles/RocketSimulator.dir/src/simulation/render.cpp.s
+.PHONY : src/simulation/render.cpp.s
+
+src/simulation/simulation.obj: src/simulation/simulation.cpp.obj
+.PHONY : src/simulation/simulation.obj
+
+# target to build an object file
+src/simulation/simulation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RocketSimulator.dir\build.make CMakeFiles/RocketSimulator.dir/src/simulation/simulation.cpp.obj
+.PHONY : src/simulation/simulation.cpp.obj
+
+src/simulation/simulation.i: src/simulation/simulation.cpp.i
+.PHONY : src/simulation/simulation.i
+
+# target to preprocess a source file
+src/simulation/simulation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RocketSimulator.dir\build.make CMakeFiles/RocketSimulator.dir/src/simulation/simulation.cpp.i
+.PHONY : src/simulation/simulation.cpp.i
+
+src/simulation/simulation.s: src/simulation/simulation.cpp.s
+.PHONY : src/simulation/simulation.s
+
+# target to generate assembly for a file
+src/simulation/simulation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RocketSimulator.dir\build.make CMakeFiles/RocketSimulator.dir/src/simulation/simulation.cpp.s
+.PHONY : src/simulation/simulation.cpp.s
+
 src/ui/mainMenu.obj: src/ui/mainMenu.cpp.obj
 .PHONY : src/ui/mainMenu.obj
 
@@ -212,6 +332,21 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/simulation/camera.obj
+	@echo ... src/simulation/camera.i
+	@echo ... src/simulation/camera.s
+	@echo ... src/simulation/inputManager.obj
+	@echo ... src/simulation/inputManager.i
+	@echo ... src/simulation/inputManager.s
+	@echo ... src/simulation/physicsEngine.obj
+	@echo ... src/simulation/physicsEngine.i
+	@echo ... src/simulation/physicsEngine.s
+	@echo ... src/simulation/render.obj
+	@echo ... src/simulation/render.i
+	@echo ... src/simulation/render.s
+	@echo ... src/simulation/simulation.obj
+	@echo ... src/simulation/simulation.i
+	@echo ... src/simulation/simulation.s
 	@echo ... src/ui/mainMenu.obj
 	@echo ... src/ui/mainMenu.i
 	@echo ... src/ui/mainMenu.s
