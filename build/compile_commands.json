@@ -46,5 +46,17 @@
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\RocketSimulator.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RocketSimulator.dir\\src\\simulation\\simulation.cpp.obj -c C:\\Users\\agbem\\OneDrive\\Projects\\RocketSimulator\\src\\simulation\\simulation.cpp",
   "file": "C:/Users/agbem/OneDrive/Projects/RocketSimulator/src/simulation/simulation.cpp",
   "output": "CMakeFiles/RocketSimulator.dir/src/simulation/simulation.cpp.obj"
+},
+{
+  "directory": "C:/Users/agbem/OneDrive/Projects/RocketSimulator/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\PhysicsTests.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PhysicsTests.dir\\tests\\physicsTests.cpp.obj -c C:\\Users\\agbem\\OneDrive\\Projects\\RocketSimulator\\tests\\physicsTests.cpp",
+  "file": "C:/Users/agbem/OneDrive/Projects/RocketSimulator/tests/physicsTests.cpp",
+  "output": "CMakeFiles/PhysicsTests.dir/tests/physicsTests.cpp.obj"
+},
+{
+  "directory": "C:/Users/agbem/OneDrive/Projects/RocketSimulator/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\PhysicsTests.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PhysicsTests.dir\\src\\simulation\\physicsEngine.cpp.obj -c C:\\Users\\agbem\\OneDrive\\Projects\\RocketSimulator\\src\\simulation\\physicsEngine.cpp",
+  "file": "C:/Users/agbem/OneDrive/Projects/RocketSimulator/src/simulation/physicsEngine.cpp",
+  "output": "CMakeFiles/PhysicsTests.dir/src/simulation/physicsEngine.cpp.obj"
 }
 ]

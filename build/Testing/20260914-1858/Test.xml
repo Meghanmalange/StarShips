@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-mingw32-make"
+	BuildStamp="20260914-1858-Experimental"
+	Name="MegMegCute"
+	Generator="ctest-4.4.2"
+	CompilerName="C:/msys64/ucrt64/bin/g++.exe"
+	CompilerVersion="16.1.0"
+	OSName="Windows"
+	Hostname="MegMegCute"
+	OSRelease="10.0.26200"
+	OSVersion="Windows 10"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString=""
+	VendorID="Unknown Manufacturer"
+	FamilyID="0"
+	ModelID="0"
+	ModelName=""
+	ProcessorCacheSize="0"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="6912"
+	TotalPhysicalMemory="15775"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2300.000000"
+	>
+	<Testing>
+		<StartDateTime>Sep 14 14:58 Eastern Daylight Time</StartDateTime>
+		<StartTestTime>1789412336</StartTestTime>
+		<TestList/>
+		<EndDateTime>Sep 14 14:58 Eastern Daylight Time</EndDateTime>
+		<EndTestTime>1789412336</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

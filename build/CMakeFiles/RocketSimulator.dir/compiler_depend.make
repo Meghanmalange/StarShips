@@ -404,6 +404,7 @@ CMakeFiles/RocketSimulator.dir/src/simulation/inputManager.cpp.obj: C:/Users/agb
   C:/msys64/ucrt64/include/SFML/Window/Keyboard.hpp
 
 CMakeFiles/RocketSimulator.dir/src/simulation/physicsEngine.cpp.obj: C:/Users/agbem/OneDrive/Projects/RocketSimulator/src/simulation/physicsEngine.cpp \
+  C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/gameState.h \
   C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/physicsEngine.h \
   C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/rocket.h \
   C:/Users/agbem/OneDrive/Projects/RocketSimulator/include/world.h \

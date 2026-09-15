@@ -1,0 +1,19 @@
+Start testing: Sep 14 14:56 Eastern Daylight Time
+----------------------------------------------------------
+1/1 Testing: PhysicsRegression
+1/1 Test: PhysicsRegression
+Command: "C:/Users/agbem/OneDrive/Projects/RocketSimulator/build/PhysicsTests.exe"
+Directory: C:/Users/agbem/OneDrive/Projects/RocketSimulator/build
+"PhysicsRegression" start time: Sep 14 14:56 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+All physics regression checks passed
+<end of output>
+Test time =   0.86 sec
+----------------------------------------------------------
+Test Passed.
+"PhysicsRegression" end time: Sep 14 14:56 Eastern Daylight Time
+"PhysicsRegression" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 14 14:56 Eastern Daylight Time
