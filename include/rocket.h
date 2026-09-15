@@ -7,7 +7,7 @@ struct RocketParameters
 	float engineThrustKn = 120.f;
 	float burnRateKgPerSecond = 25.f;
 	float dragCoefficient = 0.35f;
-	float launchAngleDegrees = 90.f;
+	float launchAngleDegrees = 0.f; // Tilt from vertical.
 };
 
 struct RocketState
@@ -17,6 +17,8 @@ struct RocketState
 	float verticalVelocityMetersPerSecond = 0.f;
 	float horizontalVelocityMetersPerSecond = 0.f;
 	float fuelMassKg = 0.f;
-	float angleDegrees = 90.f;
+	float angleDegrees = 0.f;
 	float elapsedSeconds = 0.f;
+	bool hasLiftedOff = false;
+	bool groundImpact = false;
 };

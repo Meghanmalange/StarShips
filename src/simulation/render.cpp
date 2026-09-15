@@ -95,6 +95,8 @@ void drawSimulationHud(sf::RenderWindow& window,
                        float speedMultiplier)
 {
     sf::Text telemetry(font, "Altitude: " + formatAltitude(state.altitudeMeters) + "\nFuel: " + std::to_string(static_cast<int>(state.fuelMassKg)) + " kg");
+    telemetry.setCharacterSize(22);
+    telemetry.setString(telemetry.getString() + "\nGoal: 100 km (Karman line)\nVertical speed: " + std::to_string(static_cast<int>(state.verticalVelocityMetersPerSecond)) + " m/s");
     telemetry.setPosition({18.f, 18.f});
     telemetry.setFillColor(sf::Color::White);
     window.draw(telemetry);
@@ -112,9 +114,9 @@ void drawSimulationHud(sf::RenderWindow& window,
 
     if (result != SimulationResult::Flying)
     {
-        const std::string message = result == SimulationResult::Success ? "mission success" : "mission failed";
+        const std::string message = result == SimulationResult::Success ? "Space reached - mission success" : "Grounded below target - mission failed";
         sf::Text outcome(font, message + "\nPress R for configuration or Escape to exit", 28);
-        outcome.setPosition({180.f, 330.f});
+        outcome.setPosition({45.f, 330.f});
         outcome.setFillColor(result == SimulationResult::Success ? sf::Color(120, 230, 150)
                                                                   : sf::Color(240, 110, 100));
         window.draw(outcome);

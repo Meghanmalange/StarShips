@@ -46,7 +46,7 @@ RocketConfig::RocketConfig()
 	  engineThrust(120),
 	  burnRate(25),
 	  dragCoefficient(35),
-	  launchAngle(90)
+	  launchAngle(0)
 {
 	fontLoaded = font.openFromFile("C:/Windows/Fonts/seguisb.ttf");
 	if (!fontLoaded)
@@ -65,7 +65,7 @@ void RocketConfig::draw(RenderWindow& window) const{
 	window.draw(makeText(font, "STARSHIPS - rocket configuration", 34, {leftMargin, 55.f}));
 
 	const array<string, 6> labels = {
-		"Dry Mass", "Fuel Mass", "Engine Thrust", "Burn Rate", "Drag Coeff.", "Launch Angle"};
+		"Dry Mass", "Fuel Mass", "Engine Thrust", "Burn Rate", "Drag Coeff.", "Tilt (0 = up)"};
 	const array<string, 6> values = {
 		to_string(dryMass) + " kg",
 		to_string(fuelMass) + " kg",
@@ -106,7 +106,7 @@ ConfigAction RocketConfig::handleClick(Vector2i position)
 		{
 			switch (index)
 			{
-			case 0: dryMass = max(0, dryMass - 100); break;
+			case 0: dryMass = max(100, dryMass - 100); break;
 			case 1: fuelMass = max(0, fuelMass - 100); break;
 			case 2: engineThrust = max(0, engineThrust - 5); break;
 			case 3: burnRate = max(0, burnRate - 1); break;

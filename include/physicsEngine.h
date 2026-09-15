@@ -1,6 +1,9 @@
 #pragma once
 
 #include "rocket.h"
+#include "gameState.h"
+
+SimulationResult evaluateFlight(const RocketParameters& parameters, const RocketState& state);
 
 struct PhysicsInput
 {

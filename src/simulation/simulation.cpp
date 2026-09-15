@@ -50,16 +50,7 @@ void Simulation::update(float deltaTimeSeconds)
         updateRocketPhysics(parameters, state, {flightInput.throttle, flightInput.steering}, step);
         remainingTime -= step;
 
-        if (state.altitudeMeters >= Earth::targetAltitudeMeters)
-        {
-            simulationResult = SimulationResult::Success;
-        }
-        else if (state.altitudeMeters <= 0.f && state.elapsedSeconds > 0.5f &&
-                 state.verticalVelocityMetersPerSecond < 0.f)
-        {
-            state.altitudeMeters = 0.f;
-            simulationResult = SimulationResult::Failed;
-        }
+        simulationResult = evaluateFlight(parameters, state);
     }
     camera.follow(state.horizontalPositionMeters, state.altitudeMeters);
 }

@@ -27,3 +27,9 @@ target_link_libraries(RocketSimulator PRIVATE
     SFML::Window
     SFML::System
 )
+include(CTest)
+if(BUILD_TESTING)
+    add_executable(PhysicsTests tests/physicsTests.cpp src/simulation/physicsEngine.cpp)
+    target_include_directories(PhysicsTests PRIVATE include)
+    add_test(NAME PhysicsRegression COMMAND PhysicsTests)
+endif()
